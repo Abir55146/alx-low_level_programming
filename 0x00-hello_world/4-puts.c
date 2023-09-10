@@ -7,8 +7,9 @@
  *
  * Return: always 0 (success)
 */
+
 int main(void)
 {
-	puts("\"Programming is like building a multiua  puzzle"); 
+ puts("\"Programming is like building a multiua  puzzle"); 
 	return(0);	
 }
