@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A c program that prints with printf 
+ * Description:A c program that prints with printf function 
  *
  * Return: alwasy 0 (success)
 */
