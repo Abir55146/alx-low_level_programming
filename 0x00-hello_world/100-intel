@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=itel  -o 'echo  | cut -d. -f1 .s'
+gcc -S -masm=itel  
