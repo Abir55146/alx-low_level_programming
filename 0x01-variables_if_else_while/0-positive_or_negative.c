@@ -6,17 +6,17 @@
  /**
   * main - entry point
   *
-  * Description: false or true validation
+  * Description: false or true validation result with if
   *
-  * Return : 0 (success)
-  */
+  * Return: 0 (success)
+*/
 
 int main(void)
  {
          int n;
 
          srand(time(0));
-         n = rand() - RAND_MAX / 2;
+         n = rand() - RAND_MAX/2;
          if (n > 0)
                  printf("%d is positive\n" ,n);
          else if (n==0)
