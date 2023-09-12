@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer- print every minute of the 
- *             day.
+ *             day
 */
 
 void jach_bauer(void)
@@ -20,7 +20,9 @@ void jach_bauer(void)
 		_putchar((min % 10) + 48);
 		_putchar('\n');
 	 }
+	
 	}
+
 }	
 
 
