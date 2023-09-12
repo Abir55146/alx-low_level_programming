@@ -1,7 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Entry poin
+ *
+ * Description: prints _putchar using putchar prototype
  *
  * Return:Always 0 (success)
 */
