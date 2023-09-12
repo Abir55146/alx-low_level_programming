@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: prints _putchar using putchar prototype
+ * main - Entry poin
  *
  * Return:Always 0 (success)
 */
