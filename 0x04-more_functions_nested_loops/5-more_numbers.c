@@ -9,21 +9,16 @@
 
 void more_numbers(void)
 {
-	int num, row, count;
+	int i;
+	int j;
 
-	for (row = 1; <= 10; row++)
+	for (i = 0; i < 10; i++)
 	{
-	    for (count = 0; count <= 14;
-			    count++)
-	    {
-		    num = count;
-		    if (count > 9)
-		    {
-			_putchor(1 + 48);
-			num = count % 10;
-		    }
-		    _putchor(num + 48);
-	    }
-	    _putchor('\n');
-       }
-}	
+	for (j = 0; j <= 14; j++)
+	{
+		_putchar(j + '0');
+	}
+	        _putchar('\n');
+	}
+	        _putchar('\n');
+}
