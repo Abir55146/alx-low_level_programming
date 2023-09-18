@@ -13,7 +13,6 @@
 void rev_string(char *s)
 {
 	int 1, i;
-	char temp
  
   /*find steing length without new char*/
 
