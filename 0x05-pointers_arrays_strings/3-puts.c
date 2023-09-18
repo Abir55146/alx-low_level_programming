@@ -1,8 +1,9 @@
 #include "main.h"
 
+
 /**
  * _puts - prints a string, followed by a 
- *      new line to stdout
+ *                new line to stdout
  *
  * @str: string parameter to print
  *
@@ -11,7 +12,6 @@
 
 void _puts(char *str)
 {
-	char *str;
 
 	while (*str !='\0')
 	{
