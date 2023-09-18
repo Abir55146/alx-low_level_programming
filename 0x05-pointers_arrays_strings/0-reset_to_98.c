@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * reset _ to _ 98 - takes a pointer to an
- *         int paramter and updates the 
- *         value it pointer to 98
+ * reset _ to _ 98 - the functuion name
  *
- * @c: int parameter
+ * @n: int parameter
  *
  * Return: Nothing
 */
