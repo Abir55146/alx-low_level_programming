@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev - prints reversed string, fo
- *      llowed by a new line
+ * print_rev - prints reversed string,
+ *     fo llowed by a new line
  *
  * @s: pointer to the string to print
  *
