@@ -6,14 +6,17 @@
  *
  * @s: string parameter input 
  *
- * Return: length of string
+ * Return: length of the string
 */
 
 int _strlen(char *s)
 {
-	int counter;
+	int s;
+        
+	int count = 0;
 
-	for (counterc = 0; *s != '\0'; s++            )
-		++counter
-	 return (counter);
+	for (count = 0; *s != '\0'; s++)
+
+		count++;
+	 return (count);
 }
