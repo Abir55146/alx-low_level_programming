@@ -2,12 +2,13 @@
 
 
 /**
- * add_nodeint_end - add node at the end of a linked li
- *              st
+ * add_nodeint_end - adds a new node at the end of a lis
+ *                   tint_t list.
  * @head: pointer to the first  element in the list
  * @n: data to insert in the new element 
  *
- * Return: pointer to the new node, or NULL if it fails
+ * Return: the address of the new element, or NULL if it
+ *          failed
 */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
