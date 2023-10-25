@@ -3,7 +3,7 @@
 
 /**
  * _memset - fill a block of memory with a specific valu
- *            e
+ *         e
  * @s: starting address of memory to be filled
  * @b: the desired value
  * @n: number of bytes to be changed
@@ -18,7 +18,6 @@ char *_memset(char *s, char b, unsigned int n)
 
         for (; n > 0; i++)
         {
-
                 s[i] = b;
                 n--;
 
