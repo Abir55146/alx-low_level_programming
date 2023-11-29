@@ -21,29 +21,21 @@ int main(int argc, char *argv[])
         {
 
                 printf("Error\n");
-
-                exit(1);
+		exit(1);
 
         }
-
-
-        bytes = atoi(argv[1]);
+	bytes = atoi(argv[1]);
 
 
         if (bytes < 0)
         {
-
-                printf("Error\n");
-
-                exit(2);
+		printf("Error\n");
+		exit(2);
 
         }
-
-
-        arr = (char *)main;
-
-
-        for (i = 0; i < bytes; i++)
+	arr = (char *)main;
+	
+	for (i = 0; i < bytes; i++)
         {
 
                 if (i == bytes - 1)
