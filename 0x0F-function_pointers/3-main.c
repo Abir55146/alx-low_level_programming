@@ -6,7 +6,6 @@
 
 /**
  * main - Prints the result of simple operations.
- *
  * @argc: The number of arguments supplied to the progra
  *  m.
  * @argv: An array of pointers to the arguments.
@@ -16,12 +15,10 @@
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-
-        int num1, num2;
+	int num1, num2;
         char *op;
 
-
-        if (argc != 4)
+	if (argc != 4)
         {
 
                 printf("Error\n");
@@ -57,7 +54,6 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 
         printf("%d\n", get_op_func(op)(num1, num2));
-
-        return (0);
+	return (0);
 
 }
