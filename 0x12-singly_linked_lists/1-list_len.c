@@ -5,7 +5,6 @@
 /**
  * list_len - returns the number of elements in a linke9
  *            d list
- *
  * @h: pointer to the list_t list
  *
  * Return: number of elements in h
